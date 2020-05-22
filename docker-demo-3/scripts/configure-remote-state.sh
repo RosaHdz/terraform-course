@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-state-rshdz-dckr-demo-3"
     key    = "terraform.tfstate"
-    region = "eu-west-1"
+    region = "us-east-1"
   }
 }
 '
